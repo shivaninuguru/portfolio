@@ -1,0 +1,67 @@
+body {
+    background:url('../images/background.jpg') no-repeat;
+    outline:none;
+    font-family: Sans-Serif;
+}
+
+header {
+    width:70%;
+    margin: 30px auto;
+}
+
+.navbar {
+    outline:none;
+    border:none;
+}
+
+.navbar-default{
+     background-color:#6bafd6;
+}
+
+.navbar-brand {
+    background-color:#6bafd6;
+    color:#FFF;
+}
+
+.navbar-default .navbar-brand{
+    color:#FFF;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color:#FFF;    
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color:#FFF;    
+}
+
+.aboutme {
+    background-color:#ecc961;
+    color:#59431a;
+    text-align:center;
+    min-height:410px;
+}
+
+.aboutme-name {
+    margin:30px auto auto auto;
+    text-align:center;
+    font-size:130%;
+}
+
+.aboutme img {
+    width:280px;
+    height:280px;
+}
+
+.follow {
+    margin:10px auto;
+}
+
+a:hover, a:focus {
+    outline:none;
+    border:none;
+}
+
+#home {
+    height:1000px;
+}
