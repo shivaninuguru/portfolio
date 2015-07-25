@@ -65,3 +65,23 @@ a:hover, a:focus {
 #home {
     height:1000px;
 }
+#about {
+	height:2000px;
+}
+.aboutsection{
+	height:300 px;
+	width:300px;
+	margin:100 px auto auto auto;
+	font-size: 200%;
+}
+.mycareer-font{
+	font-size:36px;
+font-family: Sans-Serif;
+text-transform: uppercase;
+background-color:#F4F4F4;
+	}
+.endparaabout{
+	font-family:DejaVu Sans;
+font-size: 24px;
+color:#00ff00;
+}
