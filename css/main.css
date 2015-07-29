@@ -1,5 +1,5 @@
 body {
-    background:url('../images/background.jpg') no-repeat;
+    background:url('../images/background.jpg');
     outline:none;
     font-family: Sans-Serif;
 }
@@ -34,7 +34,15 @@ header {
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     background-color:#FFF;    
 }
-
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+	  align-content:center;
+	  height:300px;
+	  width: 50%;
+	  
+  }
 .aboutme {
     background-color:#ecc961;
     color:#59431a;
@@ -85,3 +93,31 @@ background-color:#F4F4F4;
 font-size: 24px;
 color:#00ff00;
 }
+.subtitle{
+font-size:24px;
+color:#F008D2;
+}
+.contactstyle{
+	float:right;
+	background-color:#26B544;
+   text-align:center;
+       min-height:410px;
+}	
+.contactstyleme{
+	color:black;
+	font-size:36px;
+	text-align:center;
+}
+.contactstyleme2{
+	font-size:18px;
+	text-align:center;
+	color:#F0D209;}
+.contactstyleme3{
+	background-color:#0A0909;
+	float:right;
+	}
+	.contactstyle4{
+		font-size:36px;
+		color:black;
+		font:bold;
+	}
